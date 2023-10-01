@@ -21,7 +21,7 @@ func configWebService(t *testing.T, webServicePath string) *terraform.Options {
 
 		// Variables to pass to our Terraform code using -var options
 		Vars: map[string]interface{}{
-			"name": strings.ToLower(fmt.Sprintf("test-proxy-app-%s", uniqueId)),
+			"name": strings.ToLower(fmt.Sprintf("test-web-app-%s", uniqueId)),
 		},
 
 		// An example of how to automatically retry on known errors
