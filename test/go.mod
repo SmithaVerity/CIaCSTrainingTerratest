@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/infrastructure-as-code-testing-talk
+module github.com/SmithaVerity/CIaCSTrainingTerratest
 
 go 1.13
 
