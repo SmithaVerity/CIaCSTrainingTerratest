@@ -17,7 +17,7 @@ module "proxy_app" {
   name = var.name
 
   source_dir = "${path.module}/javascript"
-  runtime    = "nodejs14.x"
+  runtime    = "nodejs20.x"
   handler    = "index.handler"
 
   environment_variables = {
